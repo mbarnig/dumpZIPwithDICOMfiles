@@ -3,7 +3,7 @@ The present apps dump the folders embedded in a ZIP file in a browser web page. 
 * load a ZIP file from a remote server : [loadZIP.html](https://www.radiologic.fr/demos/loadZIP.html)
 * read a ZIP file from your computer : [readZIP.html](https://www.radiologic.fr/demos/readZIP.html)
 
-[figure]
+![loadZIP](https://github.com/mbarnig/dumpZIPwithDICOMfiles/blob/master/load_zip.png)  
 
 Informations about the DICOM standard are available in my GitHub repository [dumpDICOMDIRarchive](https://github.com/mbarnig/dumpDICOMDIRarchive).
 
