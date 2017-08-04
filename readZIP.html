@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<title>Read and Dump ZIP file with medical images</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" >
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="user-scalable=yes, width = device-width, initial-scale = 1, maximum-scale=1">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" sizes="76x76" href="radiologic-76x76.png" />
+		<link type="text/css" rel="stylesheet" href="load_read_ZIP.css" />
+		<script type="text/javascript" src="jszip.min.js"></script>  
+		<script type="text/javascript" src="readZIP.js"></script> 
+		<script type="text/javascript" src="extractZIPfiles.js"></script> 
+        <style>
+        </style>
+        <script>       
+        </script>
+    </head>
+    <body>
+        <h2>Read and Dump ZIP file with medical images</h2> 	
+        <input type="file" id="select-file" onchange="readZIP(event)" />
+        <div id="progress">
+            <div id="bar">&nbsp;0%</div>
+        </div>  
+        <div id="content"></div>        
+    </body>
+</html>
