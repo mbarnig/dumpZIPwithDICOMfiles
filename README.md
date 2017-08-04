@@ -1,4 +1,4 @@
-### dumpZIPwithDICOMfiles  
+### dumpZIPwithDICOMfiles   ![logo](https://www.radiologic.fr/demos/radiologic-32x32.png) 
 The present apps dump the folders embedded in a ZIP file in a browser web page. Public demos are available at my website :   
 * load a ZIP file from a remote server : [loadZIP.html](https://www.radiologic.fr/demos/loadZIP.html)
 * read a ZIP file from your computer : [readZIP.html](https://www.radiologic.fr/demos/readZIP.html)
@@ -21,7 +21,8 @@ The code has been tested with the following browsers :
 * Chrome 60
 * IE 11
 * Edge 38
-* Android 6.0
+* Android 6.0   
+
 I think the code may be of interest to other developers.  
 If you find it useful, you are welcome.
 
